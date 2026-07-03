@@ -5,6 +5,9 @@ zaliczeniowy z przedmiotu Zarządzanie Big Data (studia informatyczne II
 stopnia). Aplikacja realizuje pełny przepływ pracy z danymi: pozyskanie,
 czyszczenie, analizę eksploracyjną, wizualizację oraz komunikację wniosków.
 
+Wdrożona aplikacja:
+https://zarzadzanie-bigdata-projekt-zaliczeniowy-jakub-nowosad.streamlit.app/
+
 ## Cel i zakres
 
 Celem projektu jest analiza rynku gier na konsole PlayStation trzech generacji
@@ -127,4 +130,5 @@ oba pliki (`pyproject.toml`, `poetry.lock`) muszą znaleźć się w repozytorium
 Zbiór ma niewielki rozmiar (poniżej 1 MB), dlatego plik CSV również należy
 dołączyć do repozytorium, aby był dostępny w środowisku chmurowym.
 
-Link do wdrożonej aplikacji: (do uzupełnienia po deploymencie)
+Link do wdrożonej aplikacji:
+https://zarzadzanie-bigdata-projekt-zaliczeniowy-jakub-nowosad.streamlit.app/
