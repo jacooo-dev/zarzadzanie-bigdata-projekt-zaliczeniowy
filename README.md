@@ -28,8 +28,9 @@ październik 2025.
 - Adres: https://www.kaggle.com/datasets/gvidalguiresse/playstation-sales-and-metadata-ps3ps4ps5
 - Liczba rekordów: 4963 gry (PS3: 1892, PS4: 1991, PS5: 1080)
 
-Plik CSV należy umieścić w katalogu `data/`. Aplikacja odnajduje go po wzorcu
-nazwy, więc dokładna nazwa pliku nie wymaga ręcznej konfiguracji.
+Plik CSV należy umieścić w katalogu `data/` pod nazwą
+`playstation_sales_and_metadata.csv`, ponieważ aplikacja wczytuje go dokładnie
+z tej ścieżki.
 
 ### Ograniczenia danych
 
@@ -88,7 +89,7 @@ ProjektZaliczeniowy/
   poetry.lock       zablokowane wersje zależności
   .python-version   docelowa wersja Pythona (3.12)
   .streamlit/       konfiguracja motywu
-  data/             pliki CSV pobrane z Kaggle
+  data/             playstation_sales_and_metadata.csv (zbiór z Kaggle)
 ```
 
 Kod jest modularny: `app.py` pełni rolę orkiestratora, a logika przetwarzania
@@ -114,8 +115,8 @@ poetry install
 poetry run streamlit run app.py
 ```
 
-Przed uruchomieniem należy pobrać zbiór z Kaggle i umieścić plik CSV w
-katalogu `data/`.
+Przed uruchomieniem należy pobrać zbiór z Kaggle i umieścić plik w katalogu
+`data/` pod nazwą `playstation_sales_and_metadata.csv`.
 
 ## Wdrożenie
 
